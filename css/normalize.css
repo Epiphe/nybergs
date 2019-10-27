@@ -22,6 +22,8 @@ html {
 
 body {
   margin: 0;
+  background-image: url("img/IMG_3861.JPG");
+  background-color: pink;
 }
 
 /**
@@ -30,6 +32,16 @@ body {
 
 main {
   display: block;
+}
+
+header{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 0.2em;
+}
+
+nav{
+
 }
 
 /**
@@ -41,6 +53,26 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
+
+.head_logo{
+  display:grid;
+  grid-column: 1/2;
+}
+
+.meny{
+  display:grid;
+  grid-column: 2/3;
+}
+
+.social_media_links{
+  display:grid;
+  grid-column: 3/4;
+}
+
+.first_page_top_img img{
+  width: 100%;
+}
+
 
 /* Grouping content
    ========================================================================== */
