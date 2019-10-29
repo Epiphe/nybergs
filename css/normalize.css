@@ -68,9 +68,36 @@ h1 {
   display:grid;
   grid-column: 3/4;
 }
+.first_page_top_element{
+  display:grid;
+  grid-template-columns: auto;
+}
+.first_page_top_element h1{
+  grid-column: 1;
+  grid-row: 1;
+  color: #fff;
+  background-color: black;
+  margin:0;
+  align-self: center;
+  justify-self: center;
+  padding: 5px 10px;
 
-.first_page_top_img img{
+  border-radius: 5px;
+
+}
+.first_page_top_element img{
   width: 100%;
+  grid-column: 1;
+  grid-row: 1;
+}
+.first_page_bottom_row{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+  padding: 0.5em 0.5em;
+}
+.first_page_bottom_row_content{
+  display:grid;
 }
 
 
