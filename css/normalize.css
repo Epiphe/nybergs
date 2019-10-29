@@ -25,6 +25,7 @@ body {
   background-size: auto;
   background-color: pink;
   margin: 0;
+  font-family: Tahoma, Geneva, sans-serif;
 }
 
 /**
@@ -39,6 +40,7 @@ header{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0.2em;
+  background-color: #287094  ;
 }
 
 nav{
@@ -58,6 +60,16 @@ h1 {
 .head_logo{
   display:grid;
   grid-column: 1/2;
+  align-content: center;
+  padding-left: 10px;
+}
+
+.head_logo a{
+    padding: 4px 0;
+}
+
+.head_logo img{
+    height: 40px;
 }
 
 .meny{
@@ -66,39 +78,16 @@ h1 {
 }
 
 .social_media_links{
-  display:grid;
+  display: inline;
+  align-content: center;
   grid-column: 3/4;
 }
-.first_page_top_element{
-  display:grid;
-  grid-template-columns: auto;
+.social_media_links img{
+  height: 30px;
 }
-.first_page_top_element h1{
-  grid-column: 1;
-  grid-row: 1;
-  color: #fff;
-  background-color: black;
-  margin:0;
-  align-self: center;
-  justify-self: center;
-  padding: 5px 10px;
-
-  border-radius: 5px;
-
-}
-.first_page_top_element img{
-  width: 100%;
-  grid-column: 1;
-  grid-row: 1;
-}
-.first_page_bottom_row{
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 0.5em;
-  padding: 0.5em 0.5em;
-}
-.first_page_bottom_row_content{
-  display:grid;
+.social_media_links a{
+  float: right;
+  padding: 9px 7px;
 }
 
 /*Dropdown börjar*/
@@ -107,19 +96,19 @@ h1 {
   background-color: #9A1750;
 }
 .menyButton{
-  background-color: #9A1750;
+  background-color: #287094;
   color: white;
-  padding: 16px;
-  font-size: 16px;
-  min-width: 160px;
-  text-align: left;
+  padding: 14px;
+  font-size: 20px;
+  min-width: 100px;
+  text-align: center;
   border: none;
   cursor: pointer;
 }
 /* Dropdown button on hover & focus */
 .menyButton:hover, .menyButton:focus
 {
-  background-color: #EE4C7C;
+  background-color: #64A4CA;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -135,7 +124,7 @@ h1 {
   display: none;
   position: absolute;
   background-color: #F7F9FB;
-  min-width: 160px;
+  min-width: 33%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -172,7 +161,50 @@ h1 {
   display: inline;
   text-align: center;
 }
+
+.nav-lista.nav-Hem{
+  color: grey;
+}
 /*Dropdown slutar*/
+
+/*Elements unique for index*/
+
+.first_page_top_element{
+  display:grid;
+  grid-template-columns: auto;
+}
+.first_page_top_element h1{
+  grid-column: 1;
+  grid-row: 1;
+  color: #CCF6FF;
+  background-color: #287094;
+  margin:0;
+  align-self: center;
+  justify-self: center;
+  padding: 5px 10px;
+
+  border-radius: 5px;
+
+}
+.first_page_top_element img{
+  width: 96%;
+  grid-column: 1;
+  grid-row: 1;
+  margin: 2%;
+}
+.first_page_bottom_row{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+  padding: 0.5em 0.5em;
+}
+.first_page_bottom_row_content{
+  display:grid;
+}
+
+
+
+
 
 /* Grouping content
    ========================================================================== */
