@@ -159,7 +159,19 @@ h1 {
 {
   display:block;
 }
-
+.nav-lista
+{
+  color:#F7F9FB;
+  grid-column: auto;
+  padding:20px 15px 20px 15px;
+  margin: 0px;
+  font-size: 17px;
+  grid-column: auto;
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+  text-align: center;
+}
 /*Dropdown slutar*/
 
 /* Grouping content
