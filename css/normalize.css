@@ -255,6 +255,13 @@ figure img{
 .glasyr_page_top_element{
   text-align: center;
 }
+.lera_page_top_element{
+  grid-column: 1/3;
+}
+
+.lera_content{
+  grid-column: auto;
+}
 
 footer{
   position: fixed;
@@ -297,6 +304,9 @@ footer{
   }
   .wrapper_kontakt{
     margin: 5% 5% 5% 5%;
+  }
+  .lera_content{
+    grid-column: 1/3;
   }
 }
 
