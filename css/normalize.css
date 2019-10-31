@@ -21,9 +21,7 @@ html {
  */
 
 body {
-  background-image: url("../img/background_nybergs.jpg");
-  background-size: cover;
-  background-color: pink;
+  background-color: #E6F4F1;
   margin: 0;
   font-family: Tahoma, Geneva, sans-serif;
 }
@@ -98,7 +96,7 @@ h1 {
 }
 .menyButton{
   background-color: #287094;
-  color: white;
+  color: #E6F4F1;
   padding: 14px;
   font-size: 20px;
   min-width: 100px;
@@ -177,7 +175,7 @@ h1 {
 .first_page_top_element h1{
   grid-column: 1;
   grid-row: 1;
-  color: #CCF6FF;
+  color: #E6F4F1;
   background-color: #287094;
   margin:0;
   align-self: center;
@@ -197,10 +195,17 @@ h1 {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0.5em;
-  padding: 0.5em 0.5em;
+  margin: 2%;
 }
 .first_page_bottom_row_content{
   display:grid;
+}
+
+.first_page_bottom_row_content img{
+  display:block;
+  height:200px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .wrapper{
@@ -214,8 +219,31 @@ h1 {
   grid-template-columns: auto;
   margin: 0 5% 5% 5%;
 }
+
+.wrapper_kontakt{
+  display: grid;
+  grid-template-columns: auto;
+  margin: 5% 25% 5% 25%;
+}
+
+.wrapper_kontakt h1{
+text-align: center;
+}
+
+.kontakt_text{
+  padding: 0 30px;
+}
+
+
 .wrapper_single h1, article, section {
 grid-column: 2/3;
+}
+
+.kontakt_image {
+  display: block;
+  width:100%;
+  align-self: center;
+  border-radius: 50%;
 }
 
 figure img{
