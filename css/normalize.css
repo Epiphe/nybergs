@@ -21,8 +21,8 @@ html {
  */
 
 body {
-  background-image: url("../img/bakgrund_nybergs.jpg");
-  background-size: auto;
+  background-image: url("../img/background_nybergs.jpg");
+  background-size: cover;
   background-color: pink;
   margin: 0;
   font-family: Tahoma, Geneva, sans-serif;
