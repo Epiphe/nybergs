@@ -41,6 +41,7 @@ header{
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0.2em;
   background-color: #287094  ;
+
 }
 
 nav{
@@ -202,9 +203,43 @@ h1 {
   display:grid;
 }
 
+.wrapper{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 2%;
+  margin: 0 5% 5% 5%;
+}
+.wrapper_single{
+  display: grid;
+  grid-template-columns: auto;
+  margin: 0 5% 5% 5%;
+}
+.wrapper_single h1, article, section {
+grid-column: 2/3;
+}
 
+figure img{
+  display: block;
+  width: 100%;
+  grid-column: auto;
+}
 
+.glasyr_page_top_element{
+  text-align: center;
+}
 
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:auto;
+  background-color: #287094;
+}
+
+.footer-contact{
+  float: right;
+}
 
 /* Grouping content
    ========================================================================== */
