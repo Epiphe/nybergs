@@ -256,6 +256,16 @@ figure img{
   grid-column: auto;
 }
 
+.img_left{
+  float:left;
+  padding-right: 1%;
+}
+
+.img_right{
+  float:right;
+  padding-left: 1%;
+}
+
 .glasyr_page_top_element{
   text-align: center;
 }
@@ -309,6 +319,24 @@ footer{
   .wrapper_kontakt{
     margin: 5% 5% 5% 5%;
   }
+
+  .om_oss_section_text img{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img_left{
+    display: block;
+    float:none;
+    padding-right: 1%;
+  }
+
+  .img_right{
+    display: block;
+    float:none;
+    padding-left: 1%;
+  }
+
   .lera_content{
     grid-column: 1/3;
   }
@@ -318,7 +346,10 @@ footer{
     width: 75%;
   }
   h1{
-    font-size: 85%;
+    font-size: 90%;
+  }
+  h3{
+    font-size: 90%;
   }
   p{
     font-size: 85%;
@@ -340,6 +371,26 @@ footer{
     margin-left: auto;
     margin-right: auto;
   }
+
+  .first_page_top_element img{
+    margin: 2% 0;
+    width:100%;
+  }
+
+  .first_page_bottom_row{
+    margin: 0 0 2% 0;
+  }
+
+  footer{
+    position: fixed;
+    left: inherit;
+    bottom: 0;
+    width: inherit;
+    height:auto;
+    background-color: #287094;
+
+  }
+
 }
 
 /* Grouping content
