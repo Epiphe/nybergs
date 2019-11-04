@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>LJ keramik</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -41,8 +41,12 @@
         <a href="index.html"><img src="img/LJkeramik_logo.png" alt="Företagets logotype"></a>
       </div>
       <nav class="meny">
-        <button onclick="myFunction()" class="menyButton">Meny</button>
-        <div id="menyDropdown" class="dropdown-content">
+        <button
+        aria-expanded="false"
+        aria-controls="menyDropdown"
+        onclick="myFunction()"
+        class="menyButton">Meny</button>
+        <div id="menyDropdown" role="region" aria-labeledby="menyButton" class="dropdown-content">
             <a href="" class="nav-lista nav-Hem">Hem</a>
             <a href="om_oss.html" class="nav-lista">Om oss</a>
             <a href="kontakt.html" class="nav-lista">Kontakt</a>
