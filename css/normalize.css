@@ -249,11 +249,18 @@ grid-column: 2/3;
   align-self: center;
   border-radius: 50%;
 }
+picture{
+  display:block;
+}
 
 picture img{
   display: block;
   width: 100%;
   grid-column: auto;
+}
+
+figcaption{
+  display: block;
 }
 
 .img_left{
