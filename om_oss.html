@@ -41,8 +41,12 @@
       <a href="index.html"><img src="img/LJkeramik_logo.png" alt="Företagets logotype"></a>
     </div>
     <nav class="meny">
-      <button onclick="myFunction()" class="menyButton">Meny</button>
-      <div id="menyDropdown" class="dropdown-content">
+      <button
+      aria-expanded="false"
+      aria-controls="menyDropdown"
+      onclick="myFunction()"
+      class="menyButton" id="dropDownBtn">Meny</button>
+      <div id="menyDropdown" role="region" class="dropdown-content">
         <a href="index.html" class="nav-lista">Hem</a>
         <a href="" class="nav-lista nav-Hem">Om oss</a>
         <a href="kontakt.html" class="nav-lista">Kontakt</a>
