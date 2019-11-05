@@ -238,13 +238,16 @@ margin: 5px 0;
 text-align: center;
 }
 
+.wrapper_single h1, article, section {
+grid-column: 2/3;
+}
+
 .kontakt_text{
   padding: 0 30px;
 }
 
-
-.wrapper_single h1, article, section {
-grid-column: 2/3;
+.kontakt_text a{
+color: #287094;
 }
 
 .kontakt_image {
