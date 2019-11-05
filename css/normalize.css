@@ -56,6 +56,10 @@ h1 {
   margin: 0.67em 0;
 }
 
+a{
+  color:#CCF6FF;
+}
+
 .head_logo{
   display:grid;
   grid-column: 1/2;
