@@ -202,11 +202,11 @@ margin: 5px 0;
 .first_page_bottom_row{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 0.5em;
-  margin: 2%;
+  grid-gap: 10px;
+  margin: 0 10px;
 }
 .first_page_bottom_row_content{
-  display:grid;
+  display:block;
 }
 
 .first_page_bottom_row_content img{
@@ -214,6 +214,11 @@ margin: 5px 0;
   height:200px;
   width: 100%;
   object-fit: cover;
+}
+
+.first_page_bottom_row_content h3{
+  display:block;
+  align-items: baseline;
 }
 
 .wrapper{
@@ -272,12 +277,14 @@ figcaption{
 
 .img_left{
   float:left;
-  padding-right: 1%;
+  padding-right: 5px;
+  width: 150px;
 }
 
 .img_right{
   float:right;
-  padding-left: 1%;
+  padding-left: 5px;
+  width: 150px;
 }
 
 .glasyr_page_top_element{
